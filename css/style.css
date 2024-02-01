@@ -52,9 +52,11 @@ header{
   height: 1500px;
   
 }
-
-.row{
+.first .row{
   padding-top: 120px;
+}
+.row{
+  
   flex-direction: column;
   width: 100%;
   background-color: darksalmon;
@@ -93,6 +95,26 @@ flex-direction: column;
   height: 500px;
   
 }
+/* sezione partners  */
+
+/* sezione benefits */
+.benefits{
+  flex-direction: column;
+  margin-top:20px
+}
+ .benefits .row{
+  width: 100%;
+ }
+ .benefits .titolo{
+  height: 200px;
+ }
+ .benefits .row .col{
+  height: 500px;
+ }
+
+
+
+/* sezione benefits */
 
 @media  screen and (min-width: 375px){
   .container{
