@@ -112,13 +112,27 @@ flex-direction: column;
   height: 500px;
  }
 
-
-
 /* sezione benefits */
+
+/* sezione about us  */
+
+.about-us{
+  margin-top: 20px;
+}
+.about-us .row .col:first-child{
+  height: 1000px;
+}
+.about-us .row .col:last-child{
+  height: 500px;
+}
+
+
+
+/* sezione about us  */
 
 @media  screen and (min-width: 375px){
   .container{
-    max-width: 1100;
+    max-width: 1100px;
     
 
   }
