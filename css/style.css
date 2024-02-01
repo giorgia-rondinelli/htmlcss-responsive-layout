@@ -163,6 +163,17 @@ flex-direction: column;
     width: 50%;
   }
 
+  .about-us .row{
+    flex-direction: row;
+  }
+  .about-us .row .col:first-child{
+    width: 70%;
+  }
+  .about-us .row .col:last-child{
+    width: 30%;
+  }
+  
+
 }
 
 @media screen and (min-width:810px){
