@@ -80,6 +80,7 @@ header{
   height: 600px;
 }
 
+/* sezione strategic  */
 
 @media  screen and (min-width: 375px){
   .container{
@@ -87,7 +88,7 @@ header{
     
 
   }
-   .row{
+   .demo .row{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -112,6 +113,12 @@ header{
   }
   .closed-menu{display: none;
 
+  } 
+  .strategic .row{
+    flex-direction: row;  
+  }
+  .strategic .row .col{
+    width: 50%;
   }
  
   
