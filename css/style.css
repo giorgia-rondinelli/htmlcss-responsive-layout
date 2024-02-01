@@ -72,6 +72,14 @@ header{
   height:350px;
 }
 
+/* sezione demo */
+
+/* sezione strategic */
+
+.strategic .row .col{
+  height: 600px;
+}
+
 
 @media  screen and (min-width: 375px){
   .container{
