@@ -130,6 +130,17 @@ flex-direction: column;
 
 /* sezione about us  */
 
+
+/* sezione free  */
+.free{
+  margin-top: 20px;
+}
+.free .row{
+  height: 600px;
+}
+
+/* sezione free  */
+
 @media  screen and (min-width: 375px){
   .container{
     max-width: 1100px;
