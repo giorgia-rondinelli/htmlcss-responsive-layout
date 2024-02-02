@@ -1,19 +1,32 @@
+:root{
+  --viola:rgb(151,146,228);
+
+  --lightblue:rgb(0,132,253);
+}
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{ 
+  font-family: 'PT Sans', sans-serif;
+}
+
+header{
+  height: 75px;
+  background-color: var(--lightblue);
+ 
+  position: fixed;
+  width: 100%;
 }
 
 .flex{
   display: flex;
 }
 
-header{
-  height: 75px;
-  background-color: blue;
-  position: fixed;
-  width: 100%;
-}
+
 
 
 
@@ -32,17 +45,34 @@ header{
   align-items: center;
   height: 70px;
 }
-.intestazione > div{
-  background-color: blueviolet;
-
+.closed-menu i{
+  color: white;
+  font-size: 1.8em;
 }
+
 .open-menu{
   display: none;
+  
 }
  
-.open-menu div{
+.open-menu nav ul li{
  margin: 0 15px;
+ padding: 5px 0;
 
+}
+.open-menu nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  
+
+}
+.started{
+  font-size: 1.2em;
+  background-color: white;
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 17px;
 }
 
 /* header */
@@ -149,9 +179,10 @@ flex-direction: column;
 
 /* footer  */
 
-@media  screen and (min-width: 375px){
+@media  screen and (min-width: 768px){
   .container{
     max-width: 1100px;
+    width: 720px;
     
 
   }
@@ -172,6 +203,19 @@ flex-direction: column;
    height: 600px;
     
   }
+  .partners .row.card{
+    flex-direction: row;
+  }
+
+  .partners .card .photo{
+    width: 40%;
+   
+  }
+  .partners .card .text{
+    width: 60%;
+  }
+
+
   .benefits .row{
     flex-direction: row;
     flex-wrap: wrap;
@@ -195,8 +239,13 @@ flex-direction: column;
 
 }
 
-@media screen and (min-width:810px){
+@media screen and (min-width:1200px){
   .open-menu{display:flex;
+
+  }
+  .open-menu nav ul{
+    display: flex;
+    list-style: none;
   }
   .closed-menu{display: none;
 
@@ -209,7 +258,8 @@ flex-direction: column;
   }
 
   .container{
-    max-width: 1100px;
+    max-width: 1400px;
+    width: 1200px;
   }
 
   .benefits .row .col{
