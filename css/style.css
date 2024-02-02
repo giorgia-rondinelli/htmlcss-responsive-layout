@@ -254,6 +254,44 @@ flex-direction: column;
   color: var(--viola);
   font-size: 2.3em;
 }
+.col.photo{
+  height: 50%;
+  width: 80%;
+  text-align: center;
+  margin:0 auto;
+}
+.col.photo img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%
+  
+}
+.col.text{
+  height: 50%;
+}
+.descrizione{
+  line-height: 30px;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.nome {
+ 
+  text-align: center;
+  color:white;
+  font-size: 1.2em;
+  margin-top: 20px;
+ 
+}
+.card-partner {
+  width: 100%;
+  height: 100%;
+  background-color:var(--viola);
+  border-radius: 20px;
+  padding: 40px 20px 0 20px;
+}
 
 
 
@@ -338,16 +376,23 @@ flex-direction: column;
    margin: 15px 10px;
     
   }
-  .partners .row.card{
+
+  .partners .card-partner{
+    height: 250px;
+    padding-bottom: 40px;
+  }
+  .partners .row.card-partner{
     flex-direction: row;
   }
 
-  .partners .card .photo{
-    width: 40%;
+  .partners .card-partner .photo{
+    width: 30%;
+    height: 100%;
    
   }
-  .partners .card .text{
+  .partners .card-partner .text{
     width: 60%;
+    height: 100%;
   }
 
 
@@ -382,6 +427,7 @@ flex-direction: column;
     height: 900px;
   
   }
+
 
   
 
@@ -459,6 +505,21 @@ flex-direction: column;
  
 
   }
+  .partners .card-partner .photo{
+    width: 20%;
+    height: 100%;
+
+  }
+  .partners .card-partner{
+    height: 300px;
+    padding-bottom: 40px;
+  }
+  
+  .partners .card-partner .text{
+    width: 80%;
+    height: 100%;
+  }
+
 
 
 
