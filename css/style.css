@@ -40,6 +40,7 @@ header{
   background-color: lightskyblue;
   display: flex;
   padding: 0 30px;
+  border:1px solid black;
 
 }
 .intestazione{
@@ -167,8 +168,61 @@ h2{
 
 /* sezione strategic */
 
+.strategic{
+  margin-top: 100px;
+  background-color: var(--viola);
+  height: 100%;
+}
 .strategic .row .col{
-  height: 600px;
+  height: 720px;
+  width: 100%;
+  
+}
+
+.card-planning img{
+  width: 100%;
+  padding-top: 40px;
+  
+  
+}
+.card-planning div{
+  height: 50%;
+}
+.card-planning h3{
+  color: white;
+  font-size: 1.7em;
+  padding: 30px 0;
+}
+.card-planning p{
+  color: white;
+  font-size: .9em;
+  line-height: 25px;
+}
+.card-developement{
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  text-align: center;
+  padding:  40px 20px;
+  width: 100%;
+}
+.card-developement img{
+  width: 100%;
+}
+.card-developement h3{
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+}
+.card-developement p{
+  line-height: 25px;
+  
+}
+.card-developement i{
+  background-color: var(--viola);
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 35px;
 }
 
 /* sezione strategic  */
@@ -178,10 +232,31 @@ h2{
 .partners{
 flex-direction: column;
 }
+.row-titolo{
+  flex-direction: column;
+  width: 100%;
+  background-color: darksalmon;
+  border: 1px solid black;
+  height: 300px;
+}
 .partners .row{
   height: 500px;
   
 }
+.testimonials{
+  text-align: center;
+  line-height: 25px;
+}
+.testimonials div,h3,p{
+  padding: 20px 0;
+}
+.testimonials h3{
+  color: var(--viola);
+  font-size: 2.3em;
+}
+
+
+
 /* sezione partners  */
 
 /* sezione benefits */
@@ -303,6 +378,10 @@ flex-direction: column;
     height: 500px;
     margin-top: 0;
   }
+  .strategic  .row .col{
+    height: 900px;
+  
+  }
 
   
 
@@ -361,6 +440,23 @@ flex-direction: column;
   .card.piccola{
     height: 340px;
 
+
+  }
+
+  .strategic .row .col .card-developement{
+   height: 500px;
+   width: 400px;
+   margin-left: 40px;
+   margin-top:350px ;
+
+  
+  }
+  .strategic .row .col .card-developement img{
+    height: 230px;
+    width: 230px;
+
+  
+ 
 
   }
 
