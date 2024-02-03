@@ -286,6 +286,7 @@ flex-direction: column;
  
 }
 .card-partner {
+  margin: 20px 0;
   width: 100%;
   height: 100%;
   background-color:var(--viola);
@@ -309,8 +310,53 @@ flex-direction: column;
   height: 200px;
  }
  .benefits .row .col{
-  height: 500px;
+  height: 400px;
+  margin-bottom: 30px;
  }
+
+ .benefits .titolo h3{
+  font-size: 2em;
+  color: white;
+  text-align:center;
+  padding-top: 40px;
+
+ }
+
+ .card-benefits{
+  padding:  30px;
+  background-color: white;
+  border-radius: 20px;
+ }
+
+ .card-benefits h3,h4{
+  color: var(--viola);
+}
+
+.card-benefits h3{
+  font-size: 3em;
+}
+.card-benefits h4{
+  font-size: 1.7em;
+}
+.card-benefits p{
+  line-height: 25px;
+  color: rgb(115,115,115);
+  font-size: .9em;
+  margin-bottom: 20px;
+}
+.card-benefits a{
+  text-decoration: none;
+}
+.btn-more{
+
+  color: white;
+  background-color: var(--viola);
+  padding: 10px 50px ;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
 
 /* sezione benefits */
 
@@ -403,7 +449,7 @@ flex-direction: column;
   }
 
   .benefits .row .col{
-    width: 50%;
+    width: 45%;
   }
 
   .about-us .row{
@@ -426,6 +472,11 @@ flex-direction: column;
   .strategic  .row .col{
     height: 900px;
   
+  }
+
+  .benefits .row .col {
+    margin:  20px 10px;
+
   }
 
 
