@@ -22,6 +22,7 @@ header{
  
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 
 .flex{
@@ -37,7 +38,7 @@ header{
 .container{
   width: 100%;
   margin: 0 auto;
-  background-color: lightskyblue;
+  
   display: flex;
   padding: 0 30px;
   border:1px solid black;
@@ -92,12 +93,9 @@ header{
   
   flex-direction: column;
   width: 100%;
-  background-color: darksalmon;
-  border: 1px solid black;
 }
 .col, .first-col{
-  background-color: chocolate;
-  border: 1px solid black;
+  
   
 
 }
@@ -235,8 +233,8 @@ flex-direction: column;
 .row-titolo{
   flex-direction: column;
   width: 100%;
-  background-color: darksalmon;
-  border: 1px solid black;
+ 
+  
   height: 300px;
 }
 .partners .row{
@@ -300,6 +298,7 @@ flex-direction: column;
 
 /* sezione benefits */
 .benefits{
+  background-color: var(--viola);
   flex-direction: column;
   margin-top:20px
 }
@@ -428,11 +427,51 @@ flex-direction: column;
 /* sezione free  */
 .free{
   margin-top: 20px;
+  background-color: var(--viola);
 }
 .free .row{
   height: 600px;
 }
+.free .col{
+  text-align: center;
+  margin-top: 80px;
+}
+.free .col div,p{
+  color: white;
 
+}
+
+.free .col div:first-child{
+  letter-spacing: 3px;
+}
+.free .col div:nth-child(2){
+  font-size: 1.7em;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.free .col h3{
+  font-size: 3em;
+  color:rgb(253,193,95) ;
+
+}
+.free .col p{
+  margin: 30px 0;
+}
+
+.free .col a{
+  color: var(--viola);
+  background-color: white;
+  padding:20px 100px;
+  text-decoration: none;
+  border-radius: 30px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  
+}
+
+.free .col div:last-child{
+  margin-top:50px
+}
 /* sezione free  */
 
 /* footer  */
