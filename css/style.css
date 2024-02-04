@@ -366,12 +366,60 @@ flex-direction: column;
   margin-top: 20px;
 }
 .about-us .row .col:first-child{
-  height: 1000px;
+  height: 800px;
 }
 .about-us .row .col:last-child{
   height: 500px;
 }
 
+.about-us .row .col .card-aboutus{
+  height: 800px;
+}
+.card-aboutus  h3{
+  color: var(--viola);
+  font-size: 2.5em;
+  padding-top: 50px;
+
+}
+.card-aboutus p {
+  color:rgb(57,57,57) ;
+  line-height: 30px;
+}
+.card-help{
+  height: 500px;
+
+}
+.card-help .immagine{
+  height: 35%;
+  position: relative;
+  
+
+
+}
+.card-help .immagine img{
+  height: 100%;
+  border-radius: 50%;
+  
+}
+.card-help h3{
+  font-size: 2em;
+  color: var( --viola);
+}
+.card-help a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  background-color: var(--viola);
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.card-help .immagine i{
+  position:absolute;
+  left: 140px;
+  font-size: 3em;
+  color: var(--viola);
+}
 
 
 /* sezione about us  */
@@ -455,11 +503,14 @@ flex-direction: column;
   .about-us .row{
     flex-direction: row;
   }
+  .about-us .row .col {
+    margin: 10px 20px;
+  }
   .about-us .row .col:first-child{
-    width: 70%;
+    width: 60%;
   }
   .about-us .row .col:last-child{
-    width: 30%;
+    width: 40%;
   }
 
   .demo .row .first-col .card .immagine-phone{
@@ -477,6 +528,10 @@ flex-direction: column;
   .benefits .row .col {
     margin:  20px 10px;
 
+  }
+  .card-help .immagine{
+    padding-top: 50px;
+    height: 45% ;
   }
 
 
@@ -508,7 +563,7 @@ flex-direction: column;
   }
 
   .benefits .row .col{
-    width: 33%;
+    width: 30%;
 
   }
   .demo .row .first-col .card{
@@ -570,6 +625,14 @@ flex-direction: column;
     width: 80%;
     height: 100%;
   }
+
+  .about-us .row .col:first-child{
+    width: 50%;
+  }
+  .about-us .row .col:last-child{
+    width: 30%;
+  }
+ 
 
 
 
