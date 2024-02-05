@@ -41,7 +41,7 @@ header{
   
   display: flex;
   padding: 0 30px;
-  border:1px solid black;
+  
 
 }
 .intestazione{
@@ -233,6 +233,7 @@ flex-direction: column;
 .row-titolo{
   flex-direction: column;
   width: 100%;
+  padding-top: 50px;
  
   
   height: 300px;
@@ -253,8 +254,8 @@ flex-direction: column;
   font-size: 2.3em;
 }
 .col.photo{
-  height: 50%;
-  width: 80%;
+ height: 200px;
+ width: 200px;
   text-align: center;
   margin:0 auto;
 }
@@ -478,7 +479,22 @@ flex-direction: column;
 
 .foot{
   height: 240px;
+  background-color: rgb(51,51,51);
+  text-align: center;
+  color: white;
 }
+
+.foot .row .col div {
+  margin-bottom:40px;
+  margin-top: 20px;
+}
+.foot .row .col div span{
+  color: var(--viola);
+  text-decoration: underline;
+}
+
+
+
 
 /* footer  */
 
@@ -563,6 +579,7 @@ flex-direction: column;
     height: 900px;
   
   }
+ 
 
   .benefits .row .col {
     margin:  20px 10px;
@@ -572,6 +589,19 @@ flex-direction: column;
     padding-top: 50px;
     height: 45% ;
   }
+
+  .free .row{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .foot .row{
+    width: 40%;
+    margin: 0 auto;
+  
+  }
+  
+  
 
 
   
